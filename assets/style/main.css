@@ -738,6 +738,12 @@ img.reason-containar_point3_image{
   gap: 15px;
 }
 
+.entry__box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .entry-containar_description {
   font-family: "Noto Sans JP";
   font-size: 16px;
@@ -772,9 +778,8 @@ img.reason-containar_point3_image{
     height: 280px;
   }
 
-  .entry-containar_button {
-    width: 360px;
-    height: 75px;
+  .entry__box {
+    flex-direction: row;
   }
 
   .entry-containar_button:hover {
@@ -801,14 +806,6 @@ img.reason-containar_point3_image{
   align-items: center;
   justify-content: center;
 }
-
-@media(min-width: 767px) {
-  .entry-containar .button-containar_freetrial{
-    width: 360px;
-    height: 75px;
-  }
-}
-
 
 .entry-containar .button-containar_freetrial-text {
   font-family: "Noto Sans JP";
@@ -876,6 +873,7 @@ img.reason-containar_point3_image{
 
 .tab-content.active {
   display: flex;
+  justify-content: center;
   width: 100%;
   background-color: #F2F9FF;
   padding: 20px 15px 10px 15px;
