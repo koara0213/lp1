@@ -118,18 +118,18 @@ body {
 
 .hamburger-button-entry {
   display: inline-block;
-  margin: 30px 0px;
-  padding: inherit;
   background-color: #fff;
   color: #005bac;
+  text-align: center;
+
   font-size: 18px;
   font-weight: bold;
   border-radius: 50px;
   text-decoration: none;
   width: 94%;
-  text-align: center;
+
   padding: 25px 17px 25px 17px;
-  margin-left: 15px;
+  margin: 30px 15px;
 }
 
 .button-pink:hover {
@@ -165,19 +165,25 @@ html {
 @media (min-width: 768px) {
 
   .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+    padding: 0; */
+    /* top: 0; */
+    /* z-index: 100; */
+    /* background-color: #fff; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    white-space: nowrap;
+    /* max-width: 100rem; */
     height: 101px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     position: fixed;
-    top: 0;
-    z-index: 100;
     gap: 98px;
-  }
+    margin: auto;
+    /* width: unset; */
+    padding-left: 19.7vw;
+    padding-right: 19.7vw;
+}
 
   .header-logo {
     font-family: Poppins;
@@ -192,15 +198,22 @@ html {
   }
 
   .hamburger-menu {
+    width: unset;
+    background-color: unset;
+    box-shadow: unset;
+    text-align: center;
+    z-index: unset;
+    transform: unset;
+    transition: unset;
     display: flex;
     position: static;
     background-color: transparent;
-    margin: 0;
-    transform: none;
-    transition: unset;
-    width: unset;
-    box-shadow: unset;
-    gap: 33px;
+    /* margin: 0; */
+    /* transform: none; */
+    /* transition: unset; */
+    /* width: unset; */
+    /* box-shadow: unset; */
+    gap: 50.7px;
   }
 
   .hamburger-menu-list {
@@ -209,6 +222,10 @@ html {
     padding: 0;
     list-style: none;
     gap: 30px;
+  }
+
+  .hamburger-menu-list li {
+    padding: 25px 0px 24px 16px;
   }
 
   .hamburger-menu-list li a {
@@ -295,22 +312,22 @@ html {
 }
 
 .cover_ranking-frame_left{
-  width: 24.07px;
-  height: 68.65px;
+  width: 6.5vw;
+  height: 18.5vw;
 }
 
 .cover_ranking-frame_text{
   font-family: "Noto Sans JP";
-  font-size: 11px;
+  font-size: 2.9vw;
   text-align: left;
   color: #333;
-  margin-top: 3px;
+  margin-top: 1.2vw;
 }
 
 .cover_ranking-frame_No{
   display:flex;
   flex-direction: row;
-  margin-top: 11px;
+  margin-top: 2.5vw;
   justify-content: center;
 }
 
@@ -318,42 +335,42 @@ html {
   font-family: Poppins;
   font-weight: normal;
   font-style: italic;
-  font-size: 25px;
+  font-size: 7vw;
   text-align: left;
   color: #f11f8d;
-  margin-top: 8px;
+  margin-top: 2.5vw;
 }
 
 .cover_ranking-frame_No_value{
   font-family: Poppins;
   font-weight: normal;
   font-style: italic;
-  font-size: 36px;
+  font-size: 9.7vw;
   text-align: left;
   color: #f11f8d;
 }
 
 .cover_ranking-frame_right{
-  width: 24.08px;
-  height: 68.65px;
+  width: 6.5vw;
+  height: 18.5vw;
 }
 
 .cover_students-description{
   font-family: "Noto Sans JP";
-  font-size: 14px;
+  font-size: 3.7vw;
   text-align: left;
   color: #333;
-  top: 16px;
+  top: 4.5vw;
   position: relative;
 }
 
 .cover_inquiry {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 6.6vw;
   line-height: 1.5;
   color: #005bac;
-  margin-top: 12px;
+  margin-top: 3.8vw;
   text-align: left;
 }
 
